@@ -192,7 +192,7 @@ on your heap for quick debugging.
 with tests to handle manipulating the free list pointers, and splitting free
 entries. 
 4. Then, work on `free_space()` and `live_data()`
-5. Implement `consolidate` and add uses of it in `my_malloc`.
+5. Implement `consolidate`
 6. Think about the README questions while working through the above; fill them
 and their workloads in last.
 
