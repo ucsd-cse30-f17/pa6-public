@@ -107,8 +107,7 @@ If the size is non-positive, `my_malloc` should return NULL.
 fewer bytes, `my_malloc` should return `NULL`.
 
 **Double Free**: If the program calls `my_free` with a pointer to memory that
-contains a free entry, `my_free` should change nothing and return `0`. Otherwise,
-it should return `1`.
+contains a free entry, `my_free` should change nothing and return `0`.
 
 **Invalid Address Free**: If `my_free` is called with an address that isn't a
 multiple of 4, it can't possibly have been allocated by `my_malloc`.
