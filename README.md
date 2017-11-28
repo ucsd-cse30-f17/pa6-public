@@ -128,14 +128,14 @@ to be helpful.
 ## `int free_space()`
 
 This function returns the total amount of free space on the heap. You should
-iterate the free list and sum up all the sizes. You are not supposed to call
-consolidate() in this function. Don't consider metadata in the count.
+iterate over the free list and sum up all the sizes. Don't consider metadata in
+the count, and don't consider consolidation, just process the heap as it is.
 
 ## `int live_data()`
 
 This function returns the total amount of occupied space on the heap. You
-should iterate the free list and sum up all the sizes. You are not supposed to
-call consolidate() in this function. Don't consider metadata in the count.
+should iterate the entire heap and sum up all the sizes of occupied entries.
+Don't consider metadata in the count.
 
 Note that this function effectively detects memory leaks! If `live_data()` is
 anything other than 0 at the end of a program, that means some memory was left
