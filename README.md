@@ -218,13 +218,11 @@ in your tests file, and justify it with 3-4 sentences.
 
 ## Grading
 
-- 15% `my_malloc`
-- 15% `my_free`
-- 10% `live_data`
+- 20% `my_malloc`
+- 20% `my_free`
 - 10% `consolidate`
-- 10% `free_space`
+- 5% `live_data`
+- 5% `free_space`
 - 10% Quality of testing
 - 25% README
 - 5% Overall Style
-
-
