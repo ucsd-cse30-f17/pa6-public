@@ -6,6 +6,8 @@ Github Classroom link:
 
 https://classroom.github.com/a/mvSj8_D5
 
+It is due at 11:59 PM on Tuesday, December 5.
+
 ## Functions you Will Implement
 
 You will implement 6 functions for this assignment (which may have helpers).
