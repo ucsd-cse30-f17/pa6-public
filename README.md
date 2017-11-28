@@ -2,6 +2,10 @@
 
 Your task on this assignment will be to implement (a version of) `malloc` and `free`, along with some auxiliary functions.
 
+Github Classroom link:
+
+https://classroom.github.com/a/mvSj8_D5
+
 ## Functions you Will Implement
 
 You will implement 6 functions for this assignment (which may have helpers).
