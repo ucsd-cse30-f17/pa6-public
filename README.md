@@ -190,7 +190,7 @@ milestone.
 
 
 1. First implement `my_malloc` in the simplest way possible: put the size
-information into the first word, and update the current heap pointer. Have
+information into the first word, and update the current free list pointer. Have
 `my_free` do nothing. Make sure you can test that the correct memory is set.
 2. Then, work on `print_heap`, making sure you can usefully display the values
 on your heap for quick debugging.
